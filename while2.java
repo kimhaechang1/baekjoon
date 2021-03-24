@@ -1,3 +1,4 @@
+//this is can't execute in intellj
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -20,3 +21,4 @@ public class while2 {
         bw.close();
     }
 }
+
