@@ -3,8 +3,6 @@ import java.util.HashSet;
 
 public class Solution {
     public int solution(int [] nums){
-        int []sum;
-        sum = new int[3];
         int answer;
         int k = nums.length/2;
         HashSet<Integer> s = new HashSet<>();
