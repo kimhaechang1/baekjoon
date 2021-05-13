@@ -30,6 +30,17 @@ public class K_number {
             a++;
         }
         return answer;
+        /* best answer
+        Arrays.copyOfRange(array, startIndex, endIndex) : 배열을 인덱스 범위만큼 짜름
+        Arrays또한 sort 메서드 가지고 있다.
+        for(int i=0; i<commands.length; i++){
+            int[] temp = Arrays.copyOfRange(array, commands[i][0]-1, commands[i][1]);
+            Arrays.sort(temp);
+            answer[i] = temp[commands[i][2]-1];
+        }
+
+        return answer;
+        */
     }
 
     public static void main(String[] args) {
@@ -42,3 +53,5 @@ public class K_number {
         }
     }
 }
+
+
