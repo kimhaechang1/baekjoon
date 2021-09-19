@@ -12,11 +12,11 @@ public class IFmoon {
             int A = Integer.parseInt(stk.nextToken());
             int B = Integer.parseInt(stk.nextToken());
             if(A < B){
-                bw.write("<");
+                bw.write("<<");
                 bw.flush();
             }
             else if(A>B){
-                bw.write(">");
+                bw.write(">>");
                 bw.flush();
             }
             else if(A==B){
