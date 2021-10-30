@@ -4,11 +4,11 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 public class Function1 {
         long sum(int[] a ){
-            long ans=0;
+            long answ=0;
             for(int i:a){
-                ans+=i;
+                answ+=i;
             }
-            return ans;
+            return answ;
         }
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
