@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class IFmoon2 {
-    public static void main (String[] args) throws Exception {
+    public static void main (String[] args) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int score = Integer.parseInt(br.readLine());
