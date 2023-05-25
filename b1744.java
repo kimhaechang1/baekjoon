@@ -22,12 +22,12 @@ public class b1744 {
         }
         int sum1 = 0;
         int sum2 = 0;
-        while(plus.size() >= 2){
+        while(plus.size() >= 2) {
             int a1 = plus.poll();
             int a2 = plus.poll();
-            if(a1 + a2 > a1 * a2){
+            if (a1 + a2 > a1 * a2) {
                 sum2 += (a1 + a2);
-            }else{
+            } else {
                 sum2 += (a1 * a2);
             }
 
